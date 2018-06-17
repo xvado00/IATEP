@@ -1,0 +1,64 @@
+Characteristics,BF(5-1)#original,BF(5-1)#SEP-orig,BF(5-1)#SEP-ext,BF(5-1)#SEP-ext+SDP
+Chance,,,,
+instruction is present:,152917,153427,140096,129004
+surely influences reward:,33316,33217,33956,8670
+possibly influences reward:,16334,16701,16994,17414
+possibly doesn't influence reward:,2724,2769,2663,3180
+surely doesn't influence reward:,96314,96287,92175,108501
+surely influences observation:,9831,9904,10313,6218
+possibly influences observation:,9555,9769,9367,9276
+possibly doesn't influence observation:,2724,2769,2663,3180
+surely doesn't influence observation:,74288,74025,76018,87160
+surely influences computation:,87148,87346,74603,52990
+possibly influences computation:,26478,26662,29655,34373
+of that based on action:,8460,8327,9753,11483
+possibly doesn't influence computation:,2724,2769,2663,3180
+surely doesn't influence computation:,64257,64050,67763,80162
+Action,,,,
+instruction is present:,200000,200000,200000,200000
+surely influences computation:,148225,147451,147932,146297
+possibly influences computation:,27507,27935,27928,28228
+of that based on chance:,4638,4743,4835,4465
+possibly doesn't influence computation:,3628,3659,3698,3923
+surely doesn't influence computation:,17226,17313,16910,8813
+surely influences reward:,67883,67942,69006,81213
+possibly influences reward:,21118,21049,21436,25040
+possibly doesn't influence reward:,3628,3659,3698,3923
+surely doesn't influence reward:,33316,33217,33956,8670
+surely influences observation:,16711,16732,16845,17334
+possibly influences observation:,13204,12962,13464,14439
+possibly doesn't influence observation:,3628,3659,3698,3923
+surely doesn't influence observation:,27057,27217,27223,15031
+Reward/Observations,,,,
+instruction is present:,200000,200000,200000,200000
+Reward,,,,
+surely is produced in computation:,160787,160439,160784,156511
+possibly is produced in computation:,38554,38861,38567,42752
+of that based on action:,10451,10399,10320,12137
+of that based on chance:,7397,7476,7586,6814
+surely isn't produced in computation:,0,0,0,0
+Observation,,,,
+surely is produced in computation:,57947,57929,57959,53839
+possibly is produced in computation:,41467,41830,41457,44297
+of that based on action:,10451,10399,10320,12137
+of that based on chance:,7397,7476,7586,6814
+surely isn't produced in computation:,61629,61281,62321,59455
+Syntactically degraded environments,,,,
+only read and write instructions:,9163,9153,14432,17101
+read and write and 1 pair/instruction:,19560,19449,25032,24911
+read and write and 2 pairs/instructions:,28266,28341,32539,29645
+read and write and 3 pairs/instructions:,40126,39754,38802,36176
+read and write and 4 pairs/instructions (full BF set):,102885,103303,89195,92167
+Infinite loops,,,,
+are present:,3319,2117,2091,2241
+Pointless code,,,,
+never executed loops,25910,25910,25427,26686
+incrementation/decrementation of chance,72228,72562,3383,3717
+action/chance/incrementation/decrementation overwritten by chance or action,147043,147331,45389,39271
+zeroing overwritten by chance or action,10559,10422,0,0
+zeroed chance or action,12304,12555,9873,10115
+Premature termination,,,,
+surely occures,18892,18976,18950,17454
+possibly occures,44105,44562,44120,46767
+of that based on action:,12623,12626,12630,13858
+of that based on chance:,10928,11042,10765,10664
